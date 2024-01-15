@@ -16,12 +16,12 @@ import (
 )
 
 func main() {
-	email := "blablabla@example.lol"
+	email := "blablabla@example.lol" // Valid email format
 	if err := emailvalidator.Valid(email); err != nil {
 		fmt.Println(err)
 		return
 	}
-	
+
 	fmt.Println("Email is OK")
 }
 
