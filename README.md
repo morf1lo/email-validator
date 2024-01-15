@@ -5,7 +5,7 @@
 ```
 go get github.com/morf1lo/email-validator
 ```
---
+---
 ```go
 package main
 
