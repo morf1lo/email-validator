@@ -12,5 +12,6 @@ func main() {
 		fmt.Println(err)
 		return
 	}
+	
 	fmt.Println("Email is OK")
 }
