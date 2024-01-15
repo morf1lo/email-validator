@@ -2,7 +2,9 @@
 
 ### Example:
 #### First you need to install:
-`go get github.com/morf1lo/email-validator`
+```
+go get github.com/morf1lo/email-validator
+```
 ---
 ```
 email := "blablabla@example.lol"
