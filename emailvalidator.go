@@ -15,5 +15,6 @@ func Valid(email string) error {
 	if !regex.MatchString(strings.ToLower(email)) {
 		return err
 	}
+	
 	return nil
 }

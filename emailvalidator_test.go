@@ -7,10 +7,12 @@ import (
 
 var e error = errors.New("Invalid email")
 
-var samples = []struct{
-	email string
-	expected error
-}{
+type Sample struct {
+	email 		string
+	expected 	error
+}
+
+var samples = []Sample{
 	{email: "email123@email.com", expected: nil},
 	{email: "test@two.com", expected: nil},
 	{email: "test @blablabla.gg", expected: e},
