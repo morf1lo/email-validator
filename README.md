@@ -1,11 +1,11 @@
 # Email Validator
 
-### Example:
-#### First you need to install the package:
+### Installation
 ```
 go get github.com/morf1lo/email-validator
 ```
----
+
+### Example:
 ```go
 package main
 
